@@ -1,0 +1,8 @@
+stages:
+  - test
+
+run-tests:
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - python3 src/run_all.py
